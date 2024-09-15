@@ -1,0 +1,87 @@
+/* Reset some basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: url('background.jpg') no-repeat center center fixed; /* Background image */
+  background-size: cover; /* Ensures the background covers the entire page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  /* background-color: rgba(58, 61, 61, 0.9);  Semi-transparent dark green background */
+  padding: 40px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  width: 250px; /* Adjust width as necessary */
+  height: auto;
+  margin-bottom: 20px; /* Space between logo and title */
+}
+
+h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+
+input[type="text"], 
+input[type="password"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #FFFFFF;
+  color: #0E6251;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #D5D8DC; /* Lighter shade on hover */
+}
+
+#error-message {
+  color: red;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+p {
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
+}

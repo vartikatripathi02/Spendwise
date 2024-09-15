@@ -1,0 +1,171 @@
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #1e1e2f;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative; /* Ensure that the logout button can be positioned relative to body */
+}
+
+.container {
+  background: #2b2b3d;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Logout Button Styles */
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+}
+
+/* Existing styles for .btn and other elements */
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #1e1e2f;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #2b2b3d;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100px;
+}
+
+h1, h3, h4 {
+  color: #f0f0f0;
+}
+
+.balance-container, .inc-exp-container, .form-control {
+  background-color: #3b3b51;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#balance, #total-savings {
+  color: #ffffff;
+}
+
+.money-plus {
+  color: #2ecc71;
+}
+
+.money-minus {
+  color: #e74c3c;
+}
+
+.list li {
+  background: #3b3b51;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: linear-gradient(to right, #3498db, #9b59b6);
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #9b59b6, #3498db);
+}
+/* To-Do Pay List Container */
+.todo-pay-container {
+  margin-top: 20px;
+}
+
+.todo-pay-container h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* To-Do Pay List Container */
+.todo-pay-container {
+  margin-top: 20px;
+}
+
+.todo-pay-container h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* To-Do List Items */
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.todo-item span {
+  font-weight: bold;
+}
+
+.remainder-btn {
+  background: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.remainder-btn:hover {
+  background: #27ae60;
+}
+
+.paid {
+  text-decoration: line-through;
+  color: #95a5a6;
+}
